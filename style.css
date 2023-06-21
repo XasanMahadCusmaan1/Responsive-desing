@@ -1,0 +1,164 @@
+/* #EBE0D0 
+#EC9EC0
+#FF0080
+#A91B60
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #ebe0d0;
+  background-color: #ebe0d0;
+}
+.container {
+  display: flex;
+}
+.left-side {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0080;
+}
+.img1 {
+  width: 80%;
+  height: 600px;
+}
+.right-side {
+  width: 50%;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px;
+}
+.icons,
+button,
+img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  margin: 0px;
+}
+.googlesvg,
+.facebooksvg {
+  display: inline-block;
+  width: 30px;
+  height: 30;
+}
+.facebook {
+  height: 50px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px black;
+}
+.google {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px black;
+}
+button {
+  background-color: #ff0080;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  color: #ffffff;
+  width: 170px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  margin: 10px;
+}
+
+span {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 50;
+}
+.line {
+  border: 0.5px solid black;
+  width: 80%;
+  display: flex;
+  margin-top: 5%;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5%;
+}
+label {
+  font: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+input {
+  width: 100%;
+  height: 40px;
+  padding: 7px;
+  margin: 5px auto;
+  box-shadow: 0px 0px 3px black;
+  border: none;
+  border-radius: 3px;
+}
+.submit {
+  background-color: #ff0080;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 10px;
+}
+ /*
+ !Css media queries for this project 
+ */
+@media only screen and (max-width: 790px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-side{
+    width: 100%;
+  }
+  .right-side{
+    width: 100%;
+  }
+  input{
+    height: 40px;
+  }
+}
